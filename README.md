@@ -40,3 +40,32 @@ Latitude & Longitude
 Timezone
 
 ISP and Organization
+
+
+---
+
+## 🔧 Requirements
+
+- Python 3.x
+- `requests` module (install using pip)
+
+---
+
+## 🔌 Installation & Run (Termux)
+
+```bash
+# 1. Update and install Git & Python
+pkg update && pkg upgrade
+pkg install python git -y
+
+# 2. Install required Python module
+pip install requests
+
+# 3. Clone the repository
+git clone https://github.com/Kazi-Adib-Mahmud/A-IP-INFO
+
+# 4. Go into the folder
+cd A-IP-INFO
+
+# 5. Run the script
+python A-IP-INFO.py
